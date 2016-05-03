@@ -1,0 +1,71 @@
+{
+	"id": "55ea7db1-4253-fa8a-1c9e-f4b2d02a4819",
+	"name": "retail manager",
+	"description": "",
+	"order": [
+		"49989c7a-1f03-3007-4b41-40c70865edf7",
+		"ccfb9a89-3023-77e4-3a75-7934bc8dfc87",
+		"be478cce-996d-b42e-f89e-03ab2f146f88"
+	],
+	"folders": [],
+	"timestamp": 1462183353061,
+	"owner": 0,
+	"remoteLink": "",
+	"public": false,
+	"requests": [
+		{
+			"id": "49989c7a-1f03-3007-4b41-40c70865edf7",
+			"url": "http://localhost:8989/shop",
+			"method": "POST",
+			"headers": "Content-Type: application/json\n",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"preRequestScript": null,
+			"currentHelper": "normal",
+			"pathVariables": {},
+			"version": 2,
+			"name": "http://localhost:8989/shop",
+			"description": "",
+			"descriptionFormat": "html",
+			"collectionId": "55ea7db1-4253-fa8a-1c9e-f4b2d02a4819",
+			"rawModeData": "{\"name\":\"Pizza\",\"number\":\"P002\",\"postCode\":\"560063\",\"country\":\"India\"}"
+		},
+		{
+			"id": "be478cce-996d-b42e-f89e-03ab2f146f88",
+			"url": "http://localhost:8989/shop",
+			"method": "POST",
+			"headers": "Content-Type: application/json\n",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"preRequestScript": null,
+			"currentHelper": "normal",
+			"pathVariables": {},
+			"version": 2,
+			"name": "http://localhost:8989/shop",
+			"description": "",
+			"descriptionFormat": "html",
+			"collectionId": "55ea7db1-4253-fa8a-1c9e-f4b2d02a4819",
+			"rawModeData": "{\"name\":\"Pizza\",\"number\":\"P001\",\"postCode\":\"480011\",\"country\":\"India\"}"
+		},
+		{
+			"id": "ccfb9a89-3023-77e4-3a75-7934bc8dfc87",
+			"url": "http://localhost:8989/shop/13.1290872/77.6142258",
+			"method": "GET",
+			"headers": "Content-Type: application/json\n",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"preRequestScript": null,
+			"currentHelper": "normal",
+			"pathVariables": {},
+			"version": 2,
+			"name": "http://localhost:8989/shop/13.1290872/77.6142258",
+			"description": "",
+			"descriptionFormat": "html",
+			"collectionId": "55ea7db1-4253-fa8a-1c9e-f4b2d02a4819",
+			"rawModeData": "{\"name\":\"Pizza\",\"number\":\"P002\",\"postCode\":\"560063\",\"country\":\"India\"}"
+		}
+	]
+}
