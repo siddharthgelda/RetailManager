@@ -19,7 +19,7 @@ import com.google.maps.model.LatLng;
 @ConfigurationProperties("configuration")
 public class Geolocation {
 	
-	private static String API_KEY="AIzaSyAEwzq_sxssD1iDKE_h9Puo9RfXCB9YDkU";
+	private static String API_KEY="***********";
 	//public static String API_KEY;
 	public Map findLocation(String address) throws Exception {
 		System.out.println("APIKey "+API_KEY);
